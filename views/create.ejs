@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>ghvefdk </title>
+</head>
+
+<body>
+  
+    
+<!--Formulario-->
+<div class="conteiner ml-4">
+    <div class="card border-secondary">
+        <div class="card-header">Nuevo Registro</div>
+        <div class="card-body">
+            <form action="/save" method="POST">
+            <div class="mb-3">
+                <label for="user" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="user" name="user" tabindex="1">
+            </div>
+            <div class="mb-3">
+              <label for="user" class="form-label">Rol</label>
+              <select id="rol" name="rol" class="form-select" aria-label="Default select example">
+                  <option value="Admin">Admin</option>
+                  <option value="data entry">Data Entry</option>
+              </select>    
+            </div>
+            <button type="submit" class="btn btn-primary" tabindex="5">Guardar</button>
+            <a href="/" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
